@@ -1,1 +1,1 @@
-"# exordium-wp-core" 
+# Exordium Wordpress Plugin Core
