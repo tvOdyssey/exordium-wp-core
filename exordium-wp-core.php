@@ -4,7 +4,7 @@
 Plugin Name: Exordium WP Core
 Plugin URI:
 Description: Adds exordium core functionality to wordpress and the exordium-wp-theme.
-Version: 1.0
+Version: 0.1
 Author: Odyssey
 Author URI:
 License: GPLv2
