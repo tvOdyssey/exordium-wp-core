@@ -9,3 +9,5 @@ All notable changes to this project will be documented below.
 
 ### Changes
 - n/a
+
+[1.0]: https://github.com/tvOdyssey/exordium-wp-core/tree/1.0
