@@ -31,6 +31,8 @@ function exordium_core_page() {
 
 # include forms
 
+# include category featured images
+
 # include activitylog
 
 # include realtimestat
