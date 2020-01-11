@@ -6,6 +6,11 @@
  * Version 0.1
  */
 
+# Version and Plugin Name Information
+$info = array();
+$info['name'] = "Exordium Core";
+$info['version'] = "0.1.0";
+
 # Create the Main Menu for Exordium Core
 function exordium_core_setup_menu () {
   $page_title = 'Exordium Core';
@@ -22,7 +27,8 @@ add_action('admin_menu', 'exordium_core_setup_menu');
 
 # Welcome to the Plugin, choose which functions to enable for plugin
 function exordium_core_page() {
-  echo '<h1>Exordium Core</h1>';
+  global $info;
+  include('index/index.php');
 }
 
 # include subtitle
