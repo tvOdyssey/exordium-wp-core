@@ -39,8 +39,17 @@
           </div>
           <div class="col-md-4">
 
-            <div class="card">
-
+            <div class="card" style="padding:0;">
+              <div class="card-header">
+                Exordium Extensions
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="#">Avatar Options</a></li>
+                <li class="list-group-item"><a href="#">Form Management</a></li>
+                <li class="list-group-item"><a href="#">Activity Log</a></li>
+                <li class="list-group-item"><a href="#">Realtime Statistics</a></li>
+                <li class="list-group-item"><a href="#">Dashboard Widgets</a></li>
+              </ul>
             </div>
 
           </div>
