@@ -5,7 +5,7 @@ function exordium_avatar_setup_submenu () {
   global $menu;
   $function   = 'exordium_core_avatars';
 
-  add_submenu_page( $menu['menu_slug'], 'Avatar Management', 'Avatar Management',
+  add_submenu_page( $menu['menu_slug'], 'Avatars', 'Avatars',
     $menu['capability'], 'exordium-avatars', $function);
 }
 add_action('admin_menu', 'exordium_avatar_setup_submenu');
