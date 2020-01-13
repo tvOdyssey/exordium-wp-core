@@ -1,12 +1,18 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style type="text/css">
+      #wpfooter {
+        background: #e9ecef !important;
+      }
+      .card {
+        max-width: none !important;
+      }
+    </style>
   </head>
   <body>
 
@@ -31,29 +37,64 @@
       <div class="container">
 
         <div class="row">
+          <div class="col-md-12">
 
-          <div class="col-md-8">
+            <div class="mt-5">
+              <h4>Plugin Readme</h4>
+              <p><code>exordium-wp-core</code> is a customized wordpress plugin made for the <a href="https://exordium.dev">https://exordium.dev</a> website. Exordium is a virtual private networking software in the works.</p>
+              <p>This plugin has been released open source and will have features required for the Exordium website, including but not limited to the following features.</p>
+            </div>
 
+            <div class="mt-5">
+              <h4>Functionality</h4>
+              <p>You can enable or disable features of this plugin you don't want to have access to. By default, all extensions of this plugin are enabled.</p>
 
+              <!-- subtitle -->
+              <div class="card w-100" style="padding:0;">
+                <div class="card-body">
+                  <h5 class="card-title">Page/Post Subtitles</h5>
+                  <p class="card-text">This feature allows you yo create subtitles for your pages and posts. If you're using a theme that isn't the <code>exordium-wp-theme</code> you'll need to add those abilities into your themes <code>function.php</code> file.</p>
 
-          </div>
-          <div class="col-md-4">
+                  <form class="form">
+                    <div class="form-group">
+                      <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                        <label class="custom-control-label" for="customSwitch1">Subtitle functionality</label>
+                      </div>
+                    </div>
 
-            <div class="card" style="padding:0;">
-              <div class="card-header">
-                Exordium Extensions
+                    <div class="form-group">
+                      <a href="#" class="btn btn-primary">Update feature</a>
+                    </div>
+                  </form>
+
+                </div>
               </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><a href="#">Avatar Options</a></li>
-                <li class="list-group-item"><a href="#">Form Management</a></li>
-                <li class="list-group-item"><a href="#">Activity Log</a></li>
-                <li class="list-group-item"><a href="#">Realtime Statistics</a></li>
-                <li class="list-group-item"><a href="#">Dashboard Widgets</a></li>
-              </ul>
+
+              <!-- avatars -->
+              <div class="card w-100" style="padding:0;">
+                <div class="card-body">
+                  <h5 class="card-title">Page/Post Subtitles</h5>
+                  <p class="card-text">This feature allows you yo create subtitles for your pages and posts. If you're using a theme that isn't the <code>exordium-wp-theme</code> you'll need to add those abilities into your themes <code>function.php</code> file.</p>
+
+                  <form class="form">
+                    <div class="form-group">
+                      <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                        <label class="custom-control-label" for="customSwitch1">Subtitle functionality</label>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <a href="#" class="btn btn-primary">Update feature</a>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
             </div>
 
           </div>
-
         </div>
 
       </div>
