@@ -16,7 +16,7 @@ $menu = array();
 $menu['menu_title'] = 'Exordium Core';
 $menu['menu_slug'] = 'exordium-core';
 $menu['capability'] = 'manage_options';
-$menu['icon_url'] = 'dashicons-media-code';
+$menu['icon_url'] = 'dashicons-admin-tools';
 $menu['position'] = 99;
 
 # Create the Main Menu for Exordium Core
