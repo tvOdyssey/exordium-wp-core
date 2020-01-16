@@ -53,7 +53,7 @@
               <div class="card w-100" style="padding:0;">
                 <div class="card-body">
                   <h5 class="card-title">Page/Post Subtitles</h5>
-                  <p class="card-text">This feature allows you yo create subtitles for your pages and posts. If you're using a theme that isn't the <code>exordium-wp-theme</code> you'll need to add those abilities into your themes <code>function.php</code> file.</p>
+                  <p class="card-text">This feature allows you to create subtitles for your pages and posts. If you're using a theme that isn't the <code>exordium-wp-theme</code> you'll need to add those abilities into your themes <code>function.php</code> file.</p>
 
                   <form class="form">
                     <div class="form-group">
@@ -74,8 +74,8 @@
               <!-- avatars -->
               <div class="card w-100" style="padding:0;">
                 <div class="card-body">
-                  <h5 class="card-title">Page/Post Subtitles</h5>
-                  <p class="card-text">This feature allows you yo create subtitles for your pages and posts. If you're using a theme that isn't the <code>exordium-wp-theme</code> you'll need to add those abilities into your themes <code>function.php</code> file.</p>
+                  <h5 class="card-title">Uploadable Avatars</h5>
+                  <p class="card-text">Allows members with access to the dashboard to upload their own avatars, and also use generated ones. </p>
 
                   <form class="form">
                     <div class="form-group">
