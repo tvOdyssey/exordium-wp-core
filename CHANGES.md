@@ -8,6 +8,14 @@ This is the beginning of development, there is no package release until the plug
 
 ### Added
 - Initial project created and started working on.
+- Initial Features...
+ - Subtitle for posts and pages.
+ - Category Featured Images.
+ - Uploadable and generated Avatar options.
+ - Exordium Bootstrap 4 Forms (reCAPTCHA support).
+ - User Activity Log.
+ - Realtime Visitor Statistics.
+ - Dashboard Widgets.
 
 ### Changes
 - n/a
