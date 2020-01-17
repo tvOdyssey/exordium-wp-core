@@ -36,7 +36,7 @@
         </div>
       </section>
 
-      <!-- README.md -->
+      <!-- feature listing -->
       <section class="py-4 bg-light" style="margin-left: -20px;">
 
         <div class="container">
