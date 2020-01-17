@@ -41,7 +41,7 @@
 
         <div class="container">
 
-          <!-- card -->
+          <!-- card: subtitles -->
           <div class="card mb-4 shadow-sm">
             <div class="card-body">
               <h5 class="card-title">
@@ -60,16 +60,36 @@
                     <i class="fa fa-fw fa-pen"></i>
                     Update
                   </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- card: category featured images -->
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">
+                Category Featured Images
+              </h5>
+              <p class="card-text">
+                This feature allows you to upload and add featured images to category pages.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="custom-control custom-switch">
+                  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                  <label class="custom-control-label" for="customSwitch1">Enable/Disabled</label>
+                </div>
+                <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-dark">
-                    <i class="fa fa-fw fa-cogs"></i>
-                    Settings
+                    <i class="fa fa-fw fa-pen"></i>
+                    Update
                   </button>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- card -->
+          <!-- card: avatars -->
           <div class="card mb-4 shadow-sm">
             <div class="card-body">
               <h5 class="card-title">
@@ -97,14 +117,14 @@
             </div>
           </div>
 
-          <!-- card -->
+          <!-- card: forms -->
           <div class="card mb-4 shadow-sm">
             <div class="card-body">
               <h5 class="card-title">
                 Exordium Forms
               </h5>
               <p class="card-text">
-                Allows members with access to the dashboard to upload their own avatars, and also use generated ones.
+                Allows the inclusion of Bootstrap 4 designed forms, which can be used as contact forms, subscribing forms and other useful types.
               </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="custom-control custom-switch">
@@ -125,42 +145,14 @@
             </div>
           </div>
 
-          <!-- card -->
-          <div class="card mb-4 shadow-sm">
-            <div class="card-body">
-              <h5 class="card-title">
-                Category Featured Images
-              </h5>
-              <p class="card-text">
-                Allows members with access to the dashboard to upload their own avatars, and also use generated ones.
-              </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="custom-control custom-switch">
-                  <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                  <label class="custom-control-label" for="customSwitch1">Enable/Disabled</label>
-                </div>
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-dark">
-                    <i class="fa fa-fw fa-pen"></i>
-                    Update
-                  </button>
-                  <button type="button" class="btn btn-sm btn-outline-dark">
-                    <i class="fa fa-fw fa-cogs"></i>
-                    Settings
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- card -->
+          <!-- card: activitylog -->
           <div class="card mb-4 shadow-sm">
             <div class="card-body">
               <h5 class="card-title">
                 Activity Log
               </h5>
               <p class="card-text">
-                Allows members with access to the dashboard to upload their own avatars, and also use generated ones.
+                View what users (that have access to the dashboard panel) are doing. Also allows you to view failed logins and users attempting to access the wp-admin side of your website.
               </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="custom-control custom-switch">
@@ -181,14 +173,14 @@
             </div>
           </div>
 
-          <!-- card -->
+          <!-- card: realtimestat -->
           <div class="card mb-4 shadow-sm">
             <div class="card-body">
               <h5 class="card-title">
                 Realtime Statistics
               </h5>
               <p class="card-text">
-                Allows members with access to the dashboard to upload their own avatars, and also use generated ones.
+                Allows administrators to see extensive data on what visitors are doing on your website. Information includes traffic sources, in-depth visitor information (like browser, os and ip), and online users.
               </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="custom-control custom-switch">
@@ -209,14 +201,14 @@
             </div>
           </div>
 
-          <!-- card -->
+          <!-- card: dashwidgets -->
           <div class="card mb-4 shadow-sm">
             <div class="card-body">
               <h5 class="card-title">
                 Dashboard Widgets
               </h5>
               <p class="card-text">
-                Allows members with access to the dashboard to upload their own avatars, and also use generated ones.
+                Organize and display customized exordium widgets (activitylog, and realtimestat), notes, system and debugging information, and php error logs.
               </p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="custom-control custom-switch">
