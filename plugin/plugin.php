@@ -37,18 +37,24 @@ function exordium_core_page() {
 }
 
 # include subtitle
+require_once('subtitle/subtitle.php');
+
+# include category featured images
+require_once('category/category.php');
 
 # include avatars
 require_once('avatars/avatars.php');
 
 # include forms
-
-# include category featured images
+require_once('forms/forms.php');
 
 # include activitylog
+require_once('activitylog/activitylog.php');
 
 # include realtimestat
+require_once('realtimestat/realtimestat.php');
 
 # include dashwidgets
+require_once('dashwidgets/dashwidgets.php');
 
 ?>
