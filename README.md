@@ -2,6 +2,8 @@
 
 `exordium-wp-core` is a customized wordpress plugin made for the https://exordium.dev website. Exordium is a virtual private networking software in the works.
 
+![Exordium WP Core](screenshot.png)
+
 This plugin has been released open source and will have features required for the Exordium website, including but not limited to the following features.
 
 - [ ] Subtitle integration for posts and pages.
