@@ -1,5 +1,9 @@
 # Exordium Wordpress Plugin Core
 
+**This repository has been archived and will no longer be updated. Please look at our new repo for the [exordium-website](https://github.com/exordium-dev/exordium-website) here.**
+
+--
+
 `exordium-wp-core` is a customized wordpress plugin made for the https://exordium.dev website. Exordium is a virtual private networking software in the works.
 
 ![Exordium WP Core](screenshot.png)
